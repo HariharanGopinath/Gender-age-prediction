@@ -46,4 +46,19 @@ My face
 
 We saw above that the network is able to predict both Gender and Age to high level of accuracy.
 
+# Model-2
+
+Gender Classification with Python\ Machine Learning Project 
+
+In this project, I’ll walk you through a machine learning project on gender classification with the Python programming language.
+
+Dataset can be downloaded from kaggle website through the below link 
+ https://www.kaggle.com/ashishjangra27/gender-recognition-200k-images-celeba/download
+
+This dataset consist of thousands of images for the male and female for training, validating and testing our machine learning model
+
+In this project, I will use the some python libraries like numpy, tensorflow and matplotlib for building our machine learning model.
+
+In the final result, I got almost 80% of training and validation accuracy with less than 0.5% losses and successful in predicting the gender in the photo.
+
 
