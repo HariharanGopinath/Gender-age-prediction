@@ -25,4 +25,24 @@ Ideally, Age Prediction should be approached as a Regression problem since we ar
 
 The Adience dataset has 8 classes divided into the following age groups [(0 – 2), (4 – 6), (8 – 12), (15 – 20), (21 – 32), (38 – 43), (48 – 53), (60 – 100)]. Thus, the age prediction network has 8 nodes in the final softmax layer indicating the mentioned age ranges.
 
+# Code details
+
+The code can be divided into four parts:
+
+    1) Detect Faces
+    2) Detect Gender
+    3) Detect Age
+    4) Display output
+    
+NOTE: Please download the model weights file
+Gender-https://www.dropbox.com/s/iyv483wz7ztr9gh/gender_net.caffemodel?dl=0
+Age-https://www.dropbox.com/s/xfb20y596869vbb/age_net.caffemodel?dl=0
+    
+    
+# Results
+![result1](https://user-images.githubusercontent.com/71879067/127671477-717d5d18-67e4-448b-99ad-6f7c1fb06970.JPG)
+![result2](https://user-images.githubusercontent.com/71879067/127671503-d5764b0e-92dd-4b30-ac92-65e41803c46e.JPG)
+
+We saw above that the network is able to predict both Gender and Age to high level of accuracy.
+
 
